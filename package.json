@@ -1,0 +1,26 @@
+{
+  "name": "code-corgi-challenge2",
+  "version": "1.0.0",
+  "description": "Code Corgi Mentorship Series Challenge 2",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.6",
+    "webpack": "^4.35.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanu-gupta/code-corgi-challenge2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanu-gupta/code-corgi-challenge2/issues"
+  },
+  "homepage": "https://github.com/bhanu-gupta/code-corgi-challenge2#readme"
+}
