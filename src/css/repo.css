@@ -1,0 +1,122 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif
+}
+
+.user-info, .all-repos  {
+    margin: 20px 5px;
+    padding: 5px 10px;
+}
+
+.user-info {
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+}
+
+.user-info .img-box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-info .img-box  img {
+    height: 100px;
+    width: auto;
+}
+
+.user-info .info-box {
+    padding: 0 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.all-repos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+
+.all-repos li {
+    list-style-type: none;
+    border: 2px solid rgba(43, 43, 163, 0.555);
+    text-align: center;
+    width: 300px;
+    float: left;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.all-repos li i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.all-repos li p {
+    margin: 10px 0;
+}
+
+.all-repos li a , .user-info .info-box  a{
+    color: #134fb8;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.all-repos li a:hover, .user-info .info-box  a:hover {
+    text-decoration: underline;
+}
+
+.all-repos li {
+    font-size: 12px;
+}
+
+.all-repos .repo-lang {
+    border-radius: 50%;
+    background: #701516;
+}
+
+input {
+    padding: 4px;
+    line-height: 20px;
+    border-radius: 4px;
+    width: 163px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #134fb8;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.info-box h1 {
+    text-align: left;
+    margin: 10px 0;
+}

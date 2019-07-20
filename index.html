@@ -4,9 +4,18 @@
         <meta charset="utf-8" />
         <title>Code Corgi Challenge 2</title>
         <script src="./dist/bundle.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel='stylesheet' href='./src/css/repo.css' />
     </head>
     <body>
-        <h1>Check out the list of Github Repos from a Candidate</h1>
+        <h1>Github Repos Search</h1>
+        <form id="user-repos">
+            <label for="github-username">Username</label>
+            <input type="text" name="github-username" id="github-username" placeholder="e.g code-corgi">
+            <input type="submit" value="Submit">
+        </form>
+        <section id="user-info"></section>
+        <section id="repos-data"></section>
     </body>
 </html>
