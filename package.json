@@ -4,8 +4,8 @@
   "description": "Code Corgi Mentorship Series Challenge 2",
   "main": "webpack.config.js",
   "dependencies": {
-    "webpack-cli": "^3.3.6",
-    "webpack": "^4.35.3"
+    "webpack-cli": "^5.0.1",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {},
   "scripts": {
